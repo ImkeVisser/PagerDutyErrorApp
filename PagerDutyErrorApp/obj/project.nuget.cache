@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q/H8oJ1xc38JhJXWTBz1hr5NwfDLrtY/6uxx8fmtQl17YyzNQfHAAFkTyjUVWctzaQnIaqoFAovXZzMiG6uKXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KJALVIN83\\source\\repos\\PagerDutyErrorApp\\PagerDutyErrorApp\\PagerDutyErrorApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KJALVIN83\\.nuget\\packages\\fh.cof\\4.0.20202.3\\fh.cof.4.0.20202.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Fh.Cof 4.0.20202.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Fh.Cof",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

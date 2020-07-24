@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IVISSER89\\source\\repos\\PagerDutyErrorAppSolution\\PagerDutyErrorApp\\PagerDutyErrorApp.csproj": {}
+    "C:\\Users\\KJALVIN83\\source\\repos\\PagerDutyErrorApp\\PagerDutyErrorApp\\PagerDutyErrorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IVISSER89\\source\\repos\\PagerDutyErrorAppSolution\\PagerDutyErrorApp\\PagerDutyErrorApp.csproj": {
+    "C:\\Users\\KJALVIN83\\source\\repos\\PagerDutyErrorApp\\PagerDutyErrorApp\\PagerDutyErrorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IVISSER89\\source\\repos\\PagerDutyErrorAppSolution\\PagerDutyErrorApp\\PagerDutyErrorApp.csproj",
+        "projectUniqueName": "C:\\Users\\KJALVIN83\\source\\repos\\PagerDutyErrorApp\\PagerDutyErrorApp\\PagerDutyErrorApp.csproj",
         "projectName": "PagerDutyErrorApp",
-        "projectPath": "C:\\Users\\IVISSER89\\source\\repos\\PagerDutyErrorAppSolution\\PagerDutyErrorApp\\PagerDutyErrorApp.csproj",
-        "packagesPath": "C:\\Users\\IVISSER89\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IVISSER89\\source\\repos\\PagerDutyErrorAppSolution\\PagerDutyErrorApp\\obj\\",
+        "projectPath": "C:\\Users\\KJALVIN83\\source\\repos\\PagerDutyErrorApp\\PagerDutyErrorApp\\PagerDutyErrorApp.csproj",
+        "packagesPath": "C:\\Users\\KJALVIN83\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KJALVIN83\\source\\repos\\PagerDutyErrorApp\\PagerDutyErrorApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\IVISSER89\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KJALVIN83\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +23,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/royalfloraholland/_packaging/Veilen/nuget/v3/index.json": {},
           "https://royalfloraholland.pkgs.visualstudio.com/_packaging/Ontwikkelstraat/nuget/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +39,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Fh.Cof": {
+              "target": "Package",
+              "version": "[4.0.20202.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

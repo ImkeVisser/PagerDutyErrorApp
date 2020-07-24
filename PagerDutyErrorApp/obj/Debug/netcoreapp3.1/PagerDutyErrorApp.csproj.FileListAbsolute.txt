@@ -1,0 +1,15 @@
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\bin\Debug\netcoreapp3.1\PagerDutyErrorApp.exe
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\bin\Debug\netcoreapp3.1\PagerDutyErrorApp.deps.json
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\bin\Debug\netcoreapp3.1\PagerDutyErrorApp.runtimeconfig.json
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\bin\Debug\netcoreapp3.1\PagerDutyErrorApp.runtimeconfig.dev.json
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\bin\Debug\netcoreapp3.1\PagerDutyErrorApp.dll
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\bin\Debug\netcoreapp3.1\PagerDutyErrorApp.pdb
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\obj\Debug\netcoreapp3.1\PagerDutyErrorApp.csprojAssemblyReference.cache
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\obj\Debug\netcoreapp3.1\PagerDutyErrorApp.AssemblyInfoInputs.cache
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\obj\Debug\netcoreapp3.1\PagerDutyErrorApp.AssemblyInfo.cs
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\obj\Debug\netcoreapp3.1\PagerDutyErrorApp.dll
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\obj\Debug\netcoreapp3.1\PagerDutyErrorApp.pdb
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\obj\Debug\netcoreapp3.1\PagerDutyErrorApp.genruntimeconfig.cache
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\obj\Debug\netcoreapp3.1\PagerDutyErrorApp.csproj.CoreCompileInputs.cache
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\bin\Debug\netcoreapp3.1\Fh.Cof.dll
+C:\Users\KJALVIN83\source\repos\PagerDutyErrorApp\PagerDutyErrorApp\obj\Debug\netcoreapp3.1\PagerDutyErrorApp.csproj.CopyComplete

@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Fh.Cof" Version="4.0.20202.3" />
+  </ItemGroup>
+
 </Project>
