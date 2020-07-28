@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PagerDutyErrorApp/1.0.0": {
+        "dependencies": {
+          "Fh.Cof": "4.0.20202.3"
+        },
+        "runtime": {
+          "PagerDutyErrorApp.dll": {}
+        }
+      },
+      "Fh.Cof/4.0.20202.3": {
+        "runtime": {
+          "lib/net47/Fh.Cof.dll": {
+            "assemblyVersion": "4.0.20202.3",
+            "fileVersion": "4.0.20202.3"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PagerDutyErrorApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fh.Cof/4.0.20202.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OwCYOwEXWuYUq8GKFtGcRObxGG9S1SZreymSDjBEthJLocuZEk7Zd71J398ydwOQoO+3gSoHhh+0siKBBwhKFQ==",
+      "path": "fh.cof/4.0.20202.3",
+      "hashPath": "fh.cof.4.0.20202.3.nupkg.sha512"
+    }
+  }
+}

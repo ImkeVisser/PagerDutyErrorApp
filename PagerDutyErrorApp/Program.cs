@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Timers;
 
 /*
@@ -26,6 +27,7 @@ namespace PagerDutyErrorApp
             Console.WriteLine("\t3 - log error");
             Console.WriteLine("\t4 - stop logging");
             Console.WriteLine("\tq - to quit");
+            //Thread testLogger = new Thread(new TestLogger() )
             TickTock(testLogger);
         }
 
