@@ -35,12 +35,15 @@ namespace PagerDutyErrorApp
             {
                 case LogLevel.Error:
                     timer.Elapsed += new ElapsedEventHandler(LogError);
+                    timer.Enabled = true;
                     break;
                 case LogLevel.Warning:
                     timer.Elapsed += new ElapsedEventHandler(LogWarning);
+                    timer.Enabled = true;
                     break;
                 case LogLevel.Info:
                     timer.Elapsed += new ElapsedEventHandler(LogInfo);
+                    timer.Enabled = true;
                     break;
                 case LogLevel.None:
                     stopLogging();
@@ -69,33 +72,33 @@ namespace PagerDutyErrorApp
         private void LogError(object source, ElapsedEventArgs e)
         {
             currentLogLevel = LogLevel.Error;
-            timer.Enabled = true;
+            //timer.Enabled = true;
             if (currentLogLevel.Equals(LogLevel.Error))
             {
                 Console.WriteLine("error");
-                //FhLogging.LogError(errorLog);
+                FhLogging.LogError(errorLog);
             }
         }
 
         private void LogWarning(object source, ElapsedEventArgs e)
         {
             currentLogLevel = LogLevel.Warning;
-            timer.Enabled = true;
+            //timer.Enabled = true;
             if (currentLogLevel.Equals(LogLevel.Warning))
             {
                 Console.WriteLine("warning");
-                //FhLogging.LogError(warningLog);
+                FhLogging.LogError(warningLog);
             }
         }
 
         private void LogInfo(object source, ElapsedEventArgs e)
         {
             currentLogLevel = LogLevel.Info;
-            timer.Enabled = true;
+            //timer.Enabled = true;
             if (currentLogLevel.Equals(LogLevel.Info))
             {
                 Console.WriteLine("info");
-                //FhLogging.LogError(infoLog);
+                FhLogging.LogError(infoLog);
             }
         }
 

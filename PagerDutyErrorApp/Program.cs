@@ -25,17 +25,14 @@ namespace PagerDutyErrorApp
             Console.WriteLine("\t1 - log info");
             Console.WriteLine("\t2 - log warning");
             Console.WriteLine("\t3 - log error");
-            Console.WriteLine("\t4 - stop logging");
-            Console.WriteLine("\tq - to quit");
-            //Thread testLogger = new Thread(new TestLogger() )
+            //Console.WriteLine("\t4 - stop logging");
+            Console.WriteLine("\tany key to quit");
             TickTock(testLogger);
+            Console.ReadLine();
         }
 
         private static void TickTock(TestLogger testLogger)
         {
-            bool on = true;
-            while (on)
-            {
                 switch (Console.ReadLine())
                 {
                     case "1":
@@ -50,21 +47,17 @@ namespace PagerDutyErrorApp
                         Console.WriteLine("logging at error level now");
                         testLogger.setLogging(LogLevel.Error);
                         break;
-                    case "4":
+/*                    case "4":
                         Console.WriteLine("no logging");
                         testLogger.setLogging(LogLevel.None);
-                        break;
-                    case "q":
+                        break;*/
+/*                    case "q":
                         on = false;
-                        break;
+                        break;*/
                     default:
                         Console.WriteLine("input not valid");
                         break;
                 }
-            }
         }
-
-
-
     }
 }
