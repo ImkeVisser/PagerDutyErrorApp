@@ -17,8 +17,8 @@ namespace PagerDutyErrorApp
     class TestLogger
     {
         private string errorLog = "Dit is een error log vanuit de test-app";
-        private string warningLog = "Dit is een info log vanuit de test-app";
-        private string infoLog = "Dit is een warning log vanuit de test-app";
+        private string warningLog = "Dit is een warning log vanuit de test-app";
+        private string infoLog = "Dit is een info log vanuit de test-app";
         private LogLevel currentLogLevel = LogLevel.None;
         private Timer timer = new Timer(2000);
 
@@ -98,7 +98,7 @@ namespace PagerDutyErrorApp
             if (currentLogLevel.Equals(LogLevel.Info))
             {
                 Console.WriteLine("info");
-                FhLogging.LogError(infoLog);
+                FhLogging.LogInfo(infoLog);
             }
         }
 
